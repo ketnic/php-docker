@@ -1,0 +1,6 @@
+# FROM php:7.4-fpm
+FROM php:7.4-apache
+
+WORKDIR /var/www/html
+
+EXPOSE 8080
